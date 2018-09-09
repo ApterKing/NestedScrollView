@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2664FA7432488AEC28F7E88D /* Pods_NestedSlidingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7672BEDAD20DE806C6C134B /* Pods_NestedSlidingUITests.framework */; };
+		63BC115F9293C8A65CC5D1FB /* Pods_NestedSliding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6BC6E654E56947709DF892 /* Pods_NestedSliding.framework */; };
+		6E3A50662142552B0051A0CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A50652142552B0051A0CB /* AppDelegate.swift */; };
+		6E3A50682142552B0051A0CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A50672142552B0051A0CB /* ViewController.swift */; };
+		6E3A506B2142552B0051A0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A50692142552B0051A0CB /* Main.storyboard */; };
+		6E3A506D2142552D0051A0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A506C2142552D0051A0CB /* Assets.xcassets */; };
+		6E3A50702142552D0051A0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A506E2142552D0051A0CB /* LaunchScreen.storyboard */; };
+		6E3A507B2142552D0051A0CB /* NestedSlidingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A507A2142552D0051A0CB /* NestedSlidingTests.swift */; };
+		6E3A50862142552D0051A0CB /* NestedSlidingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A50852142552D0051A0CB /* NestedSlidingUITests.swift */; };
+		6E3A5097214276940051A0CB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A5096214276940051A0CB /* HeaderView.swift */; };
+		6E3A5099214276AE0051A0CB /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A5098214276AD0051A0CB /* SegmentView.swift */; };
+		6E3A509B214277880051A0CB /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A509A214277880051A0CB /* HeaderView.xib */; };
+		6E3A509D21427C6B0051A0CB /* SegmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A509C21427C6B0051A0CB /* SegmentView.xib */; };
+		6E3A509F21427E8D0051A0CB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A509E21427E8D0051A0CB /* UIView+Extension.swift */; };
+		6E3A50A121427E9C0051A0CB /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A50A021427E9C0051A0CB /* UIScreen+Extension.swift */; };
+		6E75591F214350DE00E4E37B /* NestedSlidingChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E75591E214350DE00E4E37B /* NestedSlidingChildViewController.swift */; };
+		6E75592321435A1700E4E37B /* NestedSlidingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E75592121435A1700E4E37B /* NestedSlidingTableViewCell.xib */; };
+		6EF926B52143E24C007A296D /* NestedSlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF926B42143E24C007A296D /* NestedSlidingViewController.swift */; };
+		6EF926B72143E5D6007A296D /* NestedSlidingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF926B62143E5D6007A296D /* NestedSlidingTableViewCell.swift */; };
+		6EF926BA214434E8007A296D /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF926B9214434E8007A296D /* OtherView.swift */; };
+		6EF926BC214434F4007A296D /* OtherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF926BB214434F4007A296D /* OtherView.xib */; };
+		C7E90EEC2C3158504FFED40B /* Pods_NestedSlidingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32F090F680AD512618B2A90 /* Pods_NestedSlidingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E3A50772142552D0051A0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3A505A2142552B0051A0CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3A50612142552B0051A0CB;
+			remoteInfo = NestedSliding;
+		};
+		6E3A50822142552D0051A0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3A505A2142552B0051A0CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3A50612142552B0051A0CB;
+			remoteInfo = NestedSliding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FBCA4E81BC64DA64B04C71 /* Pods-NestedSlidingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedSlidingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NestedSlidingTests/Pods-NestedSlidingTests.release.xcconfig"; sourceTree = "<group>"; };
+		0581FA89D673F08F0D41E5AD /* Pods-NestedSlidingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedSlidingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NestedSlidingUITests/Pods-NestedSlidingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BB7D67D4202E00F51E80F5A /* Pods-NestedSlidingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedSlidingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NestedSlidingUITests/Pods-NestedSlidingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E3A50622142552B0051A0CB /* NestedSliding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedSliding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3A50652142552B0051A0CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E3A50672142552B0051A0CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E3A506A2142552B0051A0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E3A506C2142552D0051A0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E3A506F2142552D0051A0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E3A50712142552D0051A0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3A50762142552D0051A0CB /* NestedSlidingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedSlidingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3A507A2142552D0051A0CB /* NestedSlidingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSlidingTests.swift; sourceTree = "<group>"; };
+		6E3A507C2142552D0051A0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3A50812142552D0051A0CB /* NestedSlidingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedSlidingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3A50852142552D0051A0CB /* NestedSlidingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSlidingUITests.swift; sourceTree = "<group>"; };
+		6E3A50872142552D0051A0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3A5096214276940051A0CB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		6E3A5098214276AD0051A0CB /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		6E3A509A214277880051A0CB /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		6E3A509C21427C6B0051A0CB /* SegmentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentView.xib; sourceTree = "<group>"; };
+		6E3A509E21427E8D0051A0CB /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		6E3A50A021427E9C0051A0CB /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		6E75591E214350DE00E4E37B /* NestedSlidingChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSlidingChildViewController.swift; sourceTree = "<group>"; };
+		6E75592121435A1700E4E37B /* NestedSlidingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedSlidingTableViewCell.xib; sourceTree = "<group>"; };
+		6EF926B42143E24C007A296D /* NestedSlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSlidingViewController.swift; sourceTree = "<group>"; };
+		6EF926B62143E5D6007A296D /* NestedSlidingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSlidingTableViewCell.swift; sourceTree = "<group>"; };
+		6EF926B9214434E8007A296D /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		6EF926BB214434F4007A296D /* OtherView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherView.xib; sourceTree = "<group>"; };
+		71815A76352D1847BDA1BD7A /* Pods-NestedSliding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedSliding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NestedSliding/Pods-NestedSliding.debug.xcconfig"; sourceTree = "<group>"; };
+		A700BABA566427A8BEC87BFA /* Pods-NestedSliding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedSliding.release.xcconfig"; path = "Pods/Target Support Files/Pods-NestedSliding/Pods-NestedSliding.release.xcconfig"; sourceTree = "<group>"; };
+		A7672BEDAD20DE806C6C134B /* Pods_NestedSlidingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedSlidingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6BC6E654E56947709DF892 /* Pods_NestedSliding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedSliding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32F090F680AD512618B2A90 /* Pods_NestedSlidingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedSlidingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD50496D7FF8536373F9AD95 /* Pods-NestedSlidingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedSlidingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NestedSlidingTests/Pods-NestedSlidingTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E3A505F2142552B0051A0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BC115F9293C8A65CC5D1FB /* Pods_NestedSliding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A50732142552D0051A0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E90EEC2C3158504FFED40B /* Pods_NestedSlidingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A507E2142552D0051A0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2664FA7432488AEC28F7E88D /* Pods_NestedSlidingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E3A50592142552B0051A0CB = {
+			isa = PBXGroup;
+			children = (
+				6E3A50642142552B0051A0CB /* NestedSliding */,
+				6E3A50792142552D0051A0CB /* NestedSlidingTests */,
+				6E3A50842142552D0051A0CB /* NestedSlidingUITests */,
+				6E3A50632142552B0051A0CB /* Products */,
+				B827E43BFB3EE67B88495BA1 /* Pods */,
+				EFBE7CAE99BEF8D1B093193B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E3A50632142552B0051A0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A50622142552B0051A0CB /* NestedSliding.app */,
+				6E3A50762142552D0051A0CB /* NestedSlidingTests.xctest */,
+				6E3A50812142552D0051A0CB /* NestedSlidingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3A50642142552B0051A0CB /* NestedSliding */ = {
+			isa = PBXGroup;
+			children = (
+				6E75591B21434FFC00E4E37B /* View */,
+				6E3A50652142552B0051A0CB /* AppDelegate.swift */,
+				6E3A50672142552B0051A0CB /* ViewController.swift */,
+				6EF926B42143E24C007A296D /* NestedSlidingViewController.swift */,
+				6E75591E214350DE00E4E37B /* NestedSlidingChildViewController.swift */,
+				6E3A50692142552B0051A0CB /* Main.storyboard */,
+				6E3A506C2142552D0051A0CB /* Assets.xcassets */,
+				6E3A506E2142552D0051A0CB /* LaunchScreen.storyboard */,
+				6E3A50712142552D0051A0CB /* Info.plist */,
+			);
+			path = NestedSliding;
+			sourceTree = "<group>";
+		};
+		6E3A50792142552D0051A0CB /* NestedSlidingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A507A2142552D0051A0CB /* NestedSlidingTests.swift */,
+				6E3A507C2142552D0051A0CB /* Info.plist */,
+			);
+			path = NestedSlidingTests;
+			sourceTree = "<group>";
+		};
+		6E3A50842142552D0051A0CB /* NestedSlidingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A50852142552D0051A0CB /* NestedSlidingUITests.swift */,
+				6E3A50872142552D0051A0CB /* Info.plist */,
+			);
+			path = NestedSlidingUITests;
+			sourceTree = "<group>";
+		};
+		6E75591B21434FFC00E4E37B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A509E21427E8D0051A0CB /* UIView+Extension.swift */,
+				6E3A50A021427E9C0051A0CB /* UIScreen+Extension.swift */,
+				6E3A5096214276940051A0CB /* HeaderView.swift */,
+				6E3A509A214277880051A0CB /* HeaderView.xib */,
+				6E3A5098214276AD0051A0CB /* SegmentView.swift */,
+				6E3A509C21427C6B0051A0CB /* SegmentView.xib */,
+				6EF926B62143E5D6007A296D /* NestedSlidingTableViewCell.swift */,
+				6E75592121435A1700E4E37B /* NestedSlidingTableViewCell.xib */,
+				6EF926B9214434E8007A296D /* OtherView.swift */,
+				6EF926BB214434F4007A296D /* OtherView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B827E43BFB3EE67B88495BA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71815A76352D1847BDA1BD7A /* Pods-NestedSliding.debug.xcconfig */,
+				A700BABA566427A8BEC87BFA /* Pods-NestedSliding.release.xcconfig */,
+				FD50496D7FF8536373F9AD95 /* Pods-NestedSlidingTests.debug.xcconfig */,
+				01FBCA4E81BC64DA64B04C71 /* Pods-NestedSlidingTests.release.xcconfig */,
+				0581FA89D673F08F0D41E5AD /* Pods-NestedSlidingUITests.debug.xcconfig */,
+				0BB7D67D4202E00F51E80F5A /* Pods-NestedSlidingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFBE7CAE99BEF8D1B093193B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6BC6E654E56947709DF892 /* Pods_NestedSliding.framework */,
+				D32F090F680AD512618B2A90 /* Pods_NestedSlidingTests.framework */,
+				A7672BEDAD20DE806C6C134B /* Pods_NestedSlidingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E3A50612142552B0051A0CB /* NestedSliding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3A508A2142552D0051A0CB /* Build configuration list for PBXNativeTarget "NestedSliding" */;
+			buildPhases = (
+				5455F415888890F7BBD99448 /* [CP] Check Pods Manifest.lock */,
+				6E3A505E2142552B0051A0CB /* Sources */,
+				6E3A505F2142552B0051A0CB /* Frameworks */,
+				6E3A50602142552B0051A0CB /* Resources */,
+				3864A7D0D9E5546D069E07F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedSliding;
+			productName = NestedSliding;
+			productReference = 6E3A50622142552B0051A0CB /* NestedSliding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E3A50752142552D0051A0CB /* NestedSlidingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3A508D2142552D0051A0CB /* Build configuration list for PBXNativeTarget "NestedSlidingTests" */;
+			buildPhases = (
+				19B954B608BF8C9BB0564982 /* [CP] Check Pods Manifest.lock */,
+				6E3A50722142552D0051A0CB /* Sources */,
+				6E3A50732142552D0051A0CB /* Frameworks */,
+				6E3A50742142552D0051A0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3A50782142552D0051A0CB /* PBXTargetDependency */,
+			);
+			name = NestedSlidingTests;
+			productName = NestedSlidingTests;
+			productReference = 6E3A50762142552D0051A0CB /* NestedSlidingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E3A50802142552D0051A0CB /* NestedSlidingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3A50902142552D0051A0CB /* Build configuration list for PBXNativeTarget "NestedSlidingUITests" */;
+			buildPhases = (
+				933953922E64FEBE49E202D0 /* [CP] Check Pods Manifest.lock */,
+				6E3A507D2142552D0051A0CB /* Sources */,
+				6E3A507E2142552D0051A0CB /* Frameworks */,
+				6E3A507F2142552D0051A0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3A50832142552D0051A0CB /* PBXTargetDependency */,
+			);
+			name = NestedSlidingUITests;
+			productName = NestedSlidingUITests;
+			productReference = 6E3A50812142552D0051A0CB /* NestedSlidingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E3A505A2142552B0051A0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = wangcong;
+				TargetAttributes = {
+					6E3A50612142552B0051A0CB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6E3A50752142552D0051A0CB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6E3A50612142552B0051A0CB;
+					};
+					6E3A50802142552D0051A0CB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6E3A50612142552B0051A0CB;
+					};
+				};
+			};
+			buildConfigurationList = 6E3A505D2142552B0051A0CB /* Build configuration list for PBXProject "NestedSliding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E3A50592142552B0051A0CB;
+			productRefGroup = 6E3A50632142552B0051A0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E3A50612142552B0051A0CB /* NestedSliding */,
+				6E3A50752142552D0051A0CB /* NestedSlidingTests */,
+				6E3A50802142552D0051A0CB /* NestedSlidingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E3A50602142552B0051A0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3A50702142552D0051A0CB /* LaunchScreen.storyboard in Resources */,
+				6EF926BC214434F4007A296D /* OtherView.xib in Resources */,
+				6E75592321435A1700E4E37B /* NestedSlidingTableViewCell.xib in Resources */,
+				6E3A506D2142552D0051A0CB /* Assets.xcassets in Resources */,
+				6E3A506B2142552B0051A0CB /* Main.storyboard in Resources */,
+				6E3A509B214277880051A0CB /* HeaderView.xib in Resources */,
+				6E3A509D21427C6B0051A0CB /* SegmentView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A50742142552D0051A0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A507F2142552D0051A0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B954B608BF8C9BB0564982 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedSlidingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3864A7D0D9E5546D069E07F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NestedSliding/Pods-NestedSliding-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NestedSliding/Pods-NestedSliding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5455F415888890F7BBD99448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedSliding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		933953922E64FEBE49E202D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedSlidingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E3A505E2142552B0051A0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3A509F21427E8D0051A0CB /* UIView+Extension.swift in Sources */,
+				6EF926B52143E24C007A296D /* NestedSlidingViewController.swift in Sources */,
+				6E75591F214350DE00E4E37B /* NestedSlidingChildViewController.swift in Sources */,
+				6E3A50682142552B0051A0CB /* ViewController.swift in Sources */,
+				6E3A50662142552B0051A0CB /* AppDelegate.swift in Sources */,
+				6E3A5099214276AE0051A0CB /* SegmentView.swift in Sources */,
+				6E3A5097214276940051A0CB /* HeaderView.swift in Sources */,
+				6E3A50A121427E9C0051A0CB /* UIScreen+Extension.swift in Sources */,
+				6EF926B72143E5D6007A296D /* NestedSlidingTableViewCell.swift in Sources */,
+				6EF926BA214434E8007A296D /* OtherView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A50722142552D0051A0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3A507B2142552D0051A0CB /* NestedSlidingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3A507D2142552D0051A0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3A50862142552D0051A0CB /* NestedSlidingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E3A50782142552D0051A0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3A50612142552B0051A0CB /* NestedSliding */;
+			targetProxy = 6E3A50772142552D0051A0CB /* PBXContainerItemProxy */;
+		};
+		6E3A50832142552D0051A0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3A50612142552B0051A0CB /* NestedSliding */;
+			targetProxy = 6E3A50822142552D0051A0CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E3A50692142552B0051A0CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3A506A2142552B0051A0CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E3A506E2142552D0051A0CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3A506F2142552D0051A0CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E3A50882142552D0051A0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E3A50892142552D0051A0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E3A508B2142552D0051A0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71815A76352D1847BDA1BD7A /* Pods-NestedSliding.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedSliding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.NestedSliding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E3A508C2142552D0051A0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A700BABA566427A8BEC87BFA /* Pods-NestedSliding.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedSliding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.NestedSliding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E3A508E2142552D0051A0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD50496D7FF8536373F9AD95 /* Pods-NestedSlidingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedSlidingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.NestedSlidingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedSliding.app/NestedSliding";
+			};
+			name = Debug;
+		};
+		6E3A508F2142552D0051A0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01FBCA4E81BC64DA64B04C71 /* Pods-NestedSlidingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedSlidingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.NestedSlidingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedSliding.app/NestedSliding";
+			};
+			name = Release;
+		};
+		6E3A50912142552D0051A0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0581FA89D673F08F0D41E5AD /* Pods-NestedSlidingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedSlidingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.NestedSlidingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestedSliding;
+			};
+			name = Debug;
+		};
+		6E3A50922142552D0051A0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB7D67D4202E00F51E80F5A /* Pods-NestedSlidingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedSlidingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.NestedSlidingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestedSliding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E3A505D2142552B0051A0CB /* Build configuration list for PBXProject "NestedSliding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3A50882142552D0051A0CB /* Debug */,
+				6E3A50892142552D0051A0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3A508A2142552D0051A0CB /* Build configuration list for PBXNativeTarget "NestedSliding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3A508B2142552D0051A0CB /* Debug */,
+				6E3A508C2142552D0051A0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3A508D2142552D0051A0CB /* Build configuration list for PBXNativeTarget "NestedSlidingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3A508E2142552D0051A0CB /* Debug */,
+				6E3A508F2142552D0051A0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3A50902142552D0051A0CB /* Build configuration list for PBXNativeTarget "NestedSlidingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3A50912142552D0051A0CB /* Debug */,
+				6E3A50922142552D0051A0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E3A505A2142552B0051A0CB /* Project object */;
+}
