@@ -31,7 +31,7 @@ class HeaderView: UIView {
     func updateUI() {
         
         let change = HeaderView.defaultHeight - height
-        let navBarDelta: CGFloat = _validRange(height: change, max: HeaderView.defaultHeight / 2)
+        let navBarDelta: CGFloat = _validRange(height: change, max: HeaderView.defaultHeight - UIScreen.naviBarHeight)
         navBar.backgroundColor = UIColor.white.withAlphaComponent(navBarDelta)
         if navBarDelta >= 0.9 {
             closeButton.setImage(UIImage(named: "close"), for: .normal)
